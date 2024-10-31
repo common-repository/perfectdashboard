@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto-Updater\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2018-06-29 10:31+0200\n"
+"PO-Revision-Date: 2018-06-29 10:43+0200\n"
+"Last-Translator: Dominik Kawula <dom.kawula@gmail.com>\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 &&(n"
+"%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Poedit 2.0.8\n"
+
+#: app/Whitelabelling.php:116
+#, php-format
+msgid "Version %s"
+msgstr "Wersja %s"
+
+#: app/Whitelabelling.php:121
+#, php-format
+msgid "By %s"
+msgstr "Przez %s"
+
+#: app/Whitelabelling.php:148 tmpl/configuration_form.tmpl.php:4
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: autoupdater.php:64
+#, php-format
+msgid "This plugin requires WordPress %s and PHP %s"
+msgstr "Do prawidłowego działania plugin wymaga minumum WordPressa %s i PHP %s"
+
+#: tmpl/autoupdater/notification.tmpl.php:18
+msgid "An error has occured."
+msgstr "Wystąpił błąd."
+
+#: tmpl/configuration_form.tmpl.php:13 tmpl/configuration_form.tmpl.php:34
+msgid "Automatic updates settings"
+msgstr "Ustawienia automatycznych aktualizacji"
+
+#: tmpl/configuration_form.tmpl.php:19 tmpl/configuration_form.tmpl.php:38
+#: tmpl/configuration_form.tmpl.php:42
+msgid "Advanced settings"
+msgstr "Ustawienia zaawansowane"
+
+#: tmpl/configuration_form.tmpl.php:32
+msgid "Save settings to finish enabling of automatic updates!"
+msgstr "Zapisz ustawienia aby właczyć automatyczne aktualizacje!"
+
+#: tmpl/configuration_form.tmpl.php:50
+msgid "Save"
+msgstr "Zapisz"
+
+#: tmpl/configuration_form.tmpl.php:55
+msgid "Settings have been saved"
+msgstr "Ustawienia zostały zapisane"
+
+#: tmpl/configuration_form.tmpl.php:58
+msgid "Failed to save settings"
+msgstr "Nie udało się zapisać ustawień"
+
+#: tmpl/configuration_form.tmpl.php:61
+msgid ""
+"The email address entered did not appear to be a valid email address. Please "
+"enter a valid email address."
+msgstr ""
+"Wydaje się, że wprowadzony adres e-mail jest niepoprawny. Wprowadź właściwy "
+"adres e-mail."
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:6
+msgid "Read token"
+msgstr "Read token"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:14
+msgid "This token is used during reading data from the website"
+msgstr "Ten token używany jest do odczytu informacji ze strony"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:21
+msgid "Write token"
+msgstr "Write token"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:28
+#, php-format
+msgid "Expires at %s"
+msgstr "Wygasa w dniu %s"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:30
+msgid "This token is used during making modifications to the website"
+msgstr "Ten token używany jest do zapisu informacji na stronie"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:37
+msgid "AES key"
+msgstr "AES key"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:45
+msgid ""
+"This key is used to encrpyt the response if your website is not secured with "
+"the TLS"
+msgstr ""
+"Ten klucz służy do szyfrowania komunikacje, jeśli twoja strona nie jest "
+"zabezpieczona"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:52
+msgid "Response encryption"
+msgstr "Szyfrowanie odpowiedzi"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:59
+#: tmpl/configuration_form_advanced_fields.tmpl.php:81
+#: tmpl/configuration_form_advanced_fields.tmpl.php:103
+#: tmpl/configuration_form_advanced_fields.tmpl.php:125
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:12
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:32
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:61
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:110
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:189
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:207
+msgid "No"
+msgstr "Nie"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:64
+#: tmpl/configuration_form_advanced_fields.tmpl.php:86
+#: tmpl/configuration_form_advanced_fields.tmpl.php:108
+#: tmpl/configuration_form_advanced_fields.tmpl.php:130
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:16
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:36
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:65
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:114
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:193
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:211
+msgid "Yes"
+msgstr "Tak"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:67
+msgid ""
+"The response will be encrypted by the plugin if your website is not secured "
+"with the TLS"
+msgstr ""
+"Odpowiedź zostanie zaszyfrowana przez plugin, jeśli twoja strona nie jest "
+"zabezpieczona"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:74
+msgid "SSL verification"
+msgstr "Weryfikacja SSL"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:89
+msgid "Enable the SSL verification for a download request"
+msgstr "Włacz weryfikację SSL dla requestów"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:96
+msgid "Site offline"
+msgstr "Strona offline"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:111
+msgid "Put your website into the maintenance mode"
+msgstr "Włącz tryb konserwacji"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:118
+msgid "Debug"
+msgstr "Debug"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:133
+msgid "Save logs to a file"
+msgstr "Zapisz logi do pliku"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:6
+msgid "Enable automatic updates"
+msgstr "Włącz automatyczne aktualizacje"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:19
+msgid "This website will be automatically updated"
+msgstr "Strona zostanie automatycznie zaktualizowana"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:26
+msgid "Update WordPress core"
+msgstr "Aktualizuj Core WordPressa"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:39
+msgid "Enable the automatic updates of the WordPress core"
+msgstr "Włacz automatyczne aktualizacje plików Core WordPressa"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:42
+msgid "to the latest available version"
+msgstr "do najnowszej wersji"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:44
+msgid ""
+"to the latest available version but with a weekly delay to wait for "
+"extensions' updates"
+msgstr "do najnowszej wersji ale dopiero po tygodniowym okresie przejściowym"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:46
+msgid "to the latest stable version, excluding the release X.Y.0"
+msgstr "do najnowszej wersji, z pominięciem wydania premierowego X.Y.0"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:55
+msgid "Update plugins"
+msgstr "Aktualizuj wtyczki"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:68
+msgid "Enable automatic updates of plugins"
+msgstr "Włącz automatyczne aktualizacje pluginów"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:75
+msgid "Exclude selected plugins"
+msgstr "Nie aktualizuj tych wtyczek"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:82
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:131
+msgid "Show"
+msgstr "Pokaż"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:83
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:132
+msgid "Hide"
+msgstr "Ukryj"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:104
+msgid "Update themes"
+msgstr "Aktualizuj motywy"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:117
+msgid "Enable automatic updates of themes"
+msgstr "Włącz automatyczne aktualizaje motywów"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:124
+msgid "Exclude selected themes"
+msgstr "Nie aktualizuj tych motywów"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:153
+msgid "Time of day"
+msgstr "Pora dnia"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:165
+msgid "The time of the day when the automatic update is being performed"
+msgstr "Pora dnia, kiedy automatyczne aktualizacje zostaną wykonane"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:171
+msgid "Notification e-mail"
+msgstr "Adres e-mail dla powiadomień"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:178
+msgid ""
+"Provide an e-mail address to receive a notification after the automatic "
+"update of the site, in accordance with our hosting Privacy Policy, you have "
+"agreed on."
+msgstr ""
+"Wprowadź adres e-mail dla notyfikacji po automatycznej aktualizacji. Twój "
+"adres będzie przetwarzany zgodnie z Polityką Prywatności twojego hostingu, "
+"na którą wyraziłeś zgodę."
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:184
+msgid "Notification on successful update"
+msgstr "Powiadomienie o udanej aktualizacji"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:196
+msgid "Receive a notification after a successful update"
+msgstr "Otrzymuj powiadomienia o udanej aktualizacji"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:202
+msgid "Notification on failed update"
+msgstr "Powiadomienie o nieudanej akcji"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:214
+msgid "Receive a notification after a failed update"
+msgstr "Otrzymuj powiadomienia o niedanej aktualizacji"
+
+#: tmpl/offline.tmpl.php:4
+msgid "Site Is Offline"
+msgstr "Strona jest offline"
+
+#: tmpl/offline.tmpl.php:30
+msgid "Site is offline for maintenance"
+msgstr "Trwają prace konserwacyjne na stronie"
+
+#: tmpl/offline.tmpl.php:31
+msgid "Please try back soon."
+msgstr "Spróbuj ponownie później."

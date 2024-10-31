@@ -1,0 +1,125 @@
+.autoupdater {
+    clear: both;
+    font-size: 16px;
+    max-width: 1600px;
+    padding: 32px 32px 32px 0;
+}
+
+.autoupdater-header {
+    max-width: 1600px;
+}
+
+.autoupdater-center {
+    margin: 0 auto;
+}
+
+.autoupdater h2 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: -10px;
+}
+
+.autoupdater h2 > span {
+    color: #468847;
+    font-weight: 700;
+}
+
+.autoupdater-list-features {
+    font-size: 16px;
+    margin: 32px 0;
+}
+
+.autoupdater-list-features li {
+    margin: 0;
+    padding: 4px 0;
+}
+
+.autoupdater-list-features i {
+    padding-right: 8px;
+}
+
+.autoupdater-big-btn {
+    margin-top: -5px !important;
+    font-size: 16px !important;
+}
+
+.autoupdater-heading {
+    float: left;
+}
+
+#autoupdater-page {
+    position: relative;
+    padding-top: 10px;
+}
+
+#autoupdater-form-wrapper {
+    padding-top: 10px;
+}
+
+#autoupdater_show_settings {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.autoupdater-toggle-indicator-wrapper {
+    margin: 10px 0;
+}
+
+.autoupdater-toggle-button,
+.autoupdater-toggle-button:hover,
+.autoupdater-toggle-button:active {
+    text-decoration: none;
+}
+
+.autoupdater-toggle-button h2 {
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.autoupdater-toggle-indicator-arrow {
+    float: left;
+    display: inline-block;
+    font: 800 20px/1 dashicons;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none !important;
+    color: #000 !important;
+}
+
+.autoupdater-toggle-indicator-arrow.autoupdate-open:before {
+    content: "\f142";
+}
+
+.autoupdater-toggle-indicator-arrow.autoupdate-close:before {
+    content: "\f140";
+}
+
+.autoupdater-clearfix {
+    clear: both;
+}
+
+@media (max-width: 1400px) {
+    .autoupdater h2 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .autoupdater h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .autoupdater h2 {
+        font-size: 40px;
+    }
+
+    .autoupdater-list-features li {
+        font-size: 14px;
+        padding: 4px 0;
+    }
+}

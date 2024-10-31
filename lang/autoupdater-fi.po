@@ -1,0 +1,194 @@
+#: tmpl/configuration_form.tmpl.php:19 tmpl/configuration_form.tmpl.php:38 tmpl/configuration_form.tmpl.php:42
+msgid "Advanced settings"
+msgstr "Edistyneet asetukset"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:37
+msgid "AES key"
+msgstr "AES avaimet"
+
+#: tmpl/autoupdater/notification.tmpl.php:18
+msgid "An error has occured."
+msgstr "Virhe on tapahtunut"
+
+#: autoupdater.php:64
+#, php-format
+msgid "This plugin requires WordPress %s and PHP %s"
+msgstr "Tämä plugin vaatii Wordpress %s ja PHP %s"
+
+#: tmpl/configuration_form.tmpl.php:13 tmpl/configuration_form.tmpl.php:34
+msgid "Automatic updates settings"
+msgstr "Automaattisten päivitysten asetukset"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:118
+msgid "Debug"
+msgstr "Tutki"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:6
+msgid "Enable automatic updates"
+msgstr "Laita automaattiset päivitykset päälle"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:68
+msgid "Enable automatic updates of plugins"
+msgstr "Laita lisäosien automaattiset päivitykset päälle"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:117
+msgid "Enable automatic updates of themes"
+msgstr "Laita teemojen automaattiset päivitykset päälle"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:39
+msgid "Enable the automatic updates of the WordPress core"
+msgstr "Laita Wordpressin ytimen päivitykset päälle"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:89
+msgid "Enable the SSL verification for a download request"
+msgstr "Laita latauspyyntöjen SSL tarkastus päälle"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:75
+msgid "Exclude selected plugins"
+msgstr "Älä päivitä valittuja lisäosia"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:124
+msgid "Exclude selected themes"
+msgstr "Älä päivitä valittuja teemoja"
+
+#: tmpl/configuration_form.tmpl.php:58
+msgid "Failed to save settings"
+msgstr "Asetusten tallennus epäonnistui"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:83 tmpl/configuration_form_autoupdater_fields.tmpl.php:132
+msgid "Hide"
+msgstr "Piilota"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:171
+msgid "Notification e-mail"
+msgstr "Ilmoitus sähköpostitse"
+
+#: tmpl/offline.tmpl.php:31
+msgid "Please try back soon."
+msgstr "Ole hyvä ja yritä uudelleen"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:178
+msgid ""
+"Provide an e-mail address to receive a notification after the automatic update of the site, in accordance with our hosting Privacy Policy, you have "
+"agreed on."
+msgstr "Syötä sähköpostiosoite, jotta saat ilmotuksia automaattisista sivujen päivityksistä, jotka lähetetään tietosuoja selosteemme mukaisesti"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:111
+msgid "Put your website into the maintenance mode"
+msgstr "Laita nettisivut ylläpitotilaan"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:202
+msgid "Notification on failed update"
+msgstr "Ilmoitus epäonnistuneesta päivityksestä"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:184
+msgid "Notification on successful update"
+msgstr "Ilmoitus onnistuneesta päivityksestä"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:6
+msgid "Read token"
+msgstr "Luku token"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:52
+msgid "Response encryption"
+msgstr "Vastauksen salaus"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:133
+msgid "Tallenna lokit tiedostoon"
+msgstr "Tallenna lokit tiedostoon"
+
+#: tmpl/configuration_form.tmpl.php:32
+msgid "Save settings to finish enabling of automatic updates!"
+msgstr "Tallenna asetukset laittaaksesi automaattiset päivitykset päälle."
+
+#: tmpl/configuration_form.tmpl.php:55
+msgid "Settings have been saved"
+msgstr "Asetukset on tallennettu"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:214
+msgid "Receive a notification after a failed update"
+msgstr "Vastaanota ilmoitus epäonnistuneen päivityksen jälkeen"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:196
+msgid "Receive a notification after a successful update"
+msgstr "Vastaanota ilmoitus onnistuneen päivityksen jälkeen"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:82 tmpl/configuration_form_autoupdater_fields.tmpl.php:131
+msgid "Show"
+msgstr "Näytä"
+
+#: tmpl/offline.tmpl.php:4
+msgid "Site Is Offline"
+msgstr "Sivu on poissa käytöstä"
+
+#: tmpl/offline.tmpl.php:30
+msgid "Site is offline for maintenance"
+msgstr "Sivu on poissa käytöstä päivitysten vuoksi"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:96
+msgid "Site offline"
+msgstr "Sivu on poissa käytöstä"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:74
+msgid "SSL verification"
+msgstr "SSL vahvistus"
+
+#: tmpl/configuration_form.tmpl.php:61
+msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
+msgstr "Syöttämäsi sähköpostiosoite ei ole validi sähköpostiosoite. Syötä validi sähköpostiosoite"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:67
+msgid "The response will be encrypted by the plugin if your website is not secured with the TLS"
+msgstr "Vastaus salataan tämän lisäosan puolesta, jos nettisivusi ei ole suojattu TLS:llä."
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:165
+msgid "The time of the day when the automatic update is being performed"
+msgstr "Kellonaika milloin automaattinen päivitys suoritetaan"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:45
+msgid "This key is used to encrpyt the response if your website is not secured with the TLS"
+msgstr "Tätä avainta käytetään vastauksen salaamiseen, jos nettisivusi ei ole suojattu TLS:llä."
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:30
+msgid "This token is used during making modifications to the website"
+msgstr "Tätä tokenia käytetään, kun nettisivuille tehdään muokkauksia"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:14
+msgid "This token is used during reading data from the website"
+msgstr "Tätä tokenia käytetään kun nettisivuilta luetaan dataa"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:19
+msgid "This website will be automatically updated"
+msgstr "Tämä nettisivu päivitetään automaattisesti"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:153
+msgid "Time of day"
+msgstr "Kellon aika"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:42
+msgid "to the latest available version"
+msgstr "viimeisimpään saatavilla olevaan versioon"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:44
+msgid "to the latest available version but with a weekly delay to wait for extensions' updates"
+msgstr "viimeisimpään versioon, mutta viikon viiveellä odottomaan liitännäisten päivityksiä"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:46
+msgid "to the latest stable version, excluding the release X.Y.0"
+msgstr "viimeisimpään vakaaseen versioon, lukuunottamatta versiota X.Y.0"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:55
+msgid "Update plugins"
+msgstr "Päivitä lisäosat"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:104
+msgid "Update themes"
+msgstr "Päivitä teemat"
+
+#: tmpl/configuration_form_autoupdater_fields.tmpl.php:26
+msgid "Update WordPress core"
+msgstr "Päivitä WordPressin ydin"
+
+#: tmpl/configuration_form_advanced_fields.tmpl.php:21
+msgid "Write token"
+msgstr "Kirjoitus token"
